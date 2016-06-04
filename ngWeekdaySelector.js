@@ -1,5 +1,5 @@
-angular.module('weekday-selector', [])
-  .directive("weekdaySelector", function() {
+angular.module('ng-weekday-selector', [])
+  .directive("ngWeekdaySelector", function() {
     "use strict";
 
     var const_days = [{
@@ -81,13 +81,13 @@ angular.module('weekday-selector', [])
     };
 
     return {
-      restrict: 'E',
+      restrict: 'AE',
       scope: {
-        ngModel: '=',
+        ngModel: '=?',
         ngChange: '&',
-        weekStartsIndex: '@',
-        ngDisabled: '=',
-        control: '='
+        weekStartsIndex: '@?',
+        ngDisabled: '=?',
+        control: '=?'
       },
       link: link,
       template: template
