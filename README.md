@@ -4,7 +4,7 @@ A responsive AngularJS directive for selecting multiple weekdays following iOS n
 
 # Demo:
 
-[TBD Plunkr](https://plnkr.co)
+[See Demo Here](http://plnkr.co/edit/M9wFoj3WC4gyjHo2WJqe?p=preview)
 
 Demo can be seen in app:
 
