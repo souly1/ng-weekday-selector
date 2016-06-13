@@ -2,6 +2,11 @@
 
 A responsive AngularJS directive for selecting multiple weekdays following iOS native look.
 
+# Installation:
+
+npm: npm install ng-weekday-selector
+bower: bower install ng-weekday-selector
+
 # Demo:
 
 [See Demo Here](http://plnkr.co/edit/M9wFoj3WC4gyjHo2WJqe?p=preview)
